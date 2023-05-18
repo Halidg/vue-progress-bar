@@ -83,9 +83,9 @@ export default {
         return item.thresholdPoints
      })
    },
-   activeStars() {
-    return this.data.map((item) => this.value >= item.thresholdPoints)
-   } 
+    activeStars() {
+      return this.data.map((item) => this.value >= item.thresholdPoints)
+    } 
   },
 }
 </script>
