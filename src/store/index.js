@@ -81,9 +81,6 @@ export default createStore({
         ]
       }
     ]
-   
-      
-    
   },
   mutations: {
   },
